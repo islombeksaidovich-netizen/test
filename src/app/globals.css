@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tg-bg: #e6ebf0;
+  --color-tg-white: #ffffff;
+  --color-tg-primary: #3390ec;
+  --color-tg-hover: #f4f4f5;
+  --color-tg-text: #000000;
+  --color-tg-text-secondary: #707579;
+  --color-tg-border: #dfe1e5;
+  --color-tg-message-in: #ffffff;
+  --color-tg-message-out: #eeffde;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-tg-bg);
+    color: var(--color-tg-text);
+  }
+}
